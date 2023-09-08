@@ -22,7 +22,7 @@ function App() {
     return () => {
       clearInterval(interval);
     };
-  }, [city]);
+  });
 
   const fetchWeatherData = async () => {
     try {
